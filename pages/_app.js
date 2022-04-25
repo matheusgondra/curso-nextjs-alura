@@ -5,18 +5,19 @@ function MyApp({ Component, pageProps }) {
    return (
       <>
          <Head>
-            {/*<!-- Global site tag (gtag.js) - Google Analytics -->*/}
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QPTNEC1NM"></script>
-            <script
+            {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1880L1NNT"></script>
+            <script 
                dangerouslySetInnerHTML={{
+                  
                   __html: `
                      window.dataLayer = window.dataLayer || [];
                      function gtag(){dataLayer.push(arguments);}
                      gtag('js', new Date());
          
-                     gtag('config', 'G-0QPTNEC1NM'); 
+                     gtag('config', 'G-S1880L1NNT');
                   `
-               }}
+            }}
             />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
